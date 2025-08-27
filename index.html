@@ -47,10 +47,14 @@
         </div>
         <div class="flex items-center gap-10">
           <!-- navbar-right -->
-          <div
-            class="badge rounded-[50px] bg-[#ecfff0] text-[20px] p-5 font-semibold"
-          >
-            <span>0</span>
+           
+          <div>
+            <button
+          id="heartBtn"
+          class="flex items-center space-x-1 hover:bg-green-600 p-2 rounded"
+        >
+          
+            <span id="coinCount">100</span>
             <img
               class="w-[25px] h-[25px]"
               src="./assets/heart.png"
@@ -66,7 +70,7 @@
           <div
             class="badge rounded-[50px] bg-[#00a63e] text-[20px] p-5 font-medium"
           >
-            <span>0</span>
+            <span id="copyCount">0</span>
             Copy
           </div>
         </div>
@@ -99,8 +103,8 @@
           </div>
         </div>
       </section>
-      <div class="flex gap-5 p-10 justify-center w-[1440px]">
-        <div class="grid grid-cols-3 gap-4">
+      <div class="flex gap-5 p-10 justify-center w-full bg-[#d8f3da]">
+        <div class="grid grid-cols-3 gap-5 w-full">
           <!-- Example Card -->
           <div class="bg-white flex flex-col rounded-lg px-4 py-4 shadow-md">
             <div
@@ -125,7 +129,7 @@
             <p class="text-sm text-[#5c5c5c] mb-2">Emergency assistance</p>
             <p class="text-2xl font-bold text-[#000000]">999</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
               All
             </div>
@@ -142,9 +146,6 @@
               </button>
             </div>
           </div>
-
-          <!-- Repeat similar cards for other services -->
-          <!-- Example: Fire Service -->
           <div class="bg-white flex flex-col rounded-lg px-4 py-4 shadow-md">
             <div
               class="flex justify-between items-center text-lg font-semibold"
@@ -168,7 +169,7 @@
             <p class="text-sm text-[#5c5c5c] mb-2">Police</p>
             <p class="text-2xl font-bold text-[#000000]">999</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
               Police
             </div>
@@ -209,7 +210,7 @@
             <p class="text-sm text-[#5c5c5c] mb-2">Fire Service</p>
             <p class="text-2xl font-bold text-[#000000]">999</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
               Fire
             </div>
@@ -234,7 +235,7 @@
                 class="flex items-center rounded-[10px] w-10 h-10 bg-[#ffe3e2] justify-center mr-2 mb-2"
               >
                 <img
-                  src="./assets/emergency.png"
+                  src="./assets/ambulance.png"
                   alt="Emergency Icon"
                   class="inline-block w-6 h-6"
                 />
@@ -244,14 +245,14 @@
               </span>
             </div>
             <h2 class="text-lg font-bold text-[#111111] mb-1 mt-2">
-              National Emergency Number
+              Ambulance Service
             </h2>
-            <p class="text-sm text-[#5c5c5c] mb-2">Emergency assistance</p>
-            <p class="text-2xl font-bold text-[#000000]">999</p>
+            <p class="text-sm text-[#5c5c5c] mb-2">Ambulance</p>
+            <p class="text-2xl font-bold text-[#000000]">1994-999999</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
-              All
+              Health
             </div>
             <div class="mt-5 flex gap-2">
               <button
@@ -285,14 +286,14 @@
               </span>
             </div>
             <h2 class="text-lg font-bold text-[#111111] mb-1 mt-2">
-              National Emergency Number
+              Women & Child Helpline
             </h2>
-            <p class="text-sm text-[#5c5c5c] mb-2">Emergency assistance</p>
-            <p class="text-2xl font-bold text-[#000000]">999</p>
+            <p class="text-sm text-[#5c5c5c] mb-2">Women & Child Helpline</p>
+            <p class="text-2xl font-bold text-[#000000]">109</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
-              All
+              Help
             </div>
             <div class="mt-5 flex gap-2">
               <button
@@ -326,14 +327,14 @@
               </span>
             </div>
             <h2 class="text-lg font-bold text-[#111111] mb-1 mt-2">
-              National Emergency Number
+              Anti-Corruption Helpline
             </h2>
-            <p class="text-sm text-[#5c5c5c] mb-2">Emergency assistance</p>
-            <p class="text-2xl font-bold text-[#000000]">999</p>
+            <p class="text-sm text-[#5c5c5c] mb-2">Anti-Corruption</p>
+            <p class="text-2xl font-bold text-[#000000]">106</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
-              All
+              Govt.
             </div>
             <div class="mt-5 flex gap-2">
               <button
@@ -367,14 +368,14 @@
               </span>
             </div>
             <h2 class="text-lg font-bold text-[#111111] mb-1 mt-2">
-              National Emergency Number
+              Electricity Helpline
             </h2>
-            <p class="text-sm text-[#5c5c5c] mb-2">Emergency assistance</p>
-            <p class="text-2xl font-bold text-[#000000]">999</p>
+            <p class="text-sm text-[#5c5c5c] mb-2">Electricity Outage</p>
+            <p class="text-2xl font-bold text-[#000000]">16216</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
-              All
+              Electricity
             </div>
             <div class="mt-5 flex gap-2">
               <button
@@ -408,18 +409,18 @@
               </span>
             </div>
             <h2 class="text-lg font-bold text-[#111111] mb-1 mt-2">
-              National Emergency Number
+              Brac Helpline
             </h2>
-            <p class="text-sm text-[#5c5c5c] mb-2">Emergency assistance</p>
-            <p class="text-2xl font-bold text-[#000000]">999</p>
+            <p class="text-sm text-[#5c5c5c] mb-2">Brac</p>
+            <p class="text-2xl font-bold text-[#000000]">16445</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
-              All
+              NGO
             </div>
             <div class="mt-5 flex gap-2">
               <button
-                class="btn btn-secondary w-[50%] bg-[#ffffff] text-[16px] font-semibold outline-none border-[#e4e6e5] text-[#e4e6e5]"
+                class="btn w-[50%] bg-[#ffffff] text-[16px] font-semibold outline-none border-[#e4e6e5] text-[#e4e6e5]"
               >
                 <i class="fa-solid fa-copy"></i> copy
               </button>
@@ -449,18 +450,18 @@
               </span>
             </div>
             <h2 class="text-lg font-bold text-[#111111] mb-1 mt-2">
-              National Emergency Number
+              Bangladesh Railway Helpline
             </h2>
-            <p class="text-sm text-[#5c5c5c] mb-2">Emergency assistance</p>
-            <p class="text-2xl font-bold text-[#000000]">999</p>
+            <p class="text-sm text-[#5c5c5c] mb-2">Bangladesh Railway</p>
+            <p class="text-2xl font-bold text-[#000000]">163</p>
             <div
-              class="badge rounded-[50px] bg-[#ecfff0] text-[12px] p-4 font-semibold"
+              class="badge rounded-[50px] bg-[#efeded] text-[12px] p-4 font-semibold"
             >
-              All
+              Travel
             </div>
             <div class="mt-5 flex gap-2">
               <button
-                class="btn btn-secondary w-[50%] bg-[#ffffff] text-[16px] font-semibold outline-none border-[#e4e6e5] text-[#e4e6e5]"
+                class="btn w-[50%] bg-[#ffffff] text-[16px] font-semibold outline-none border-[#e4e6e5] text-[#e4e6e5]"
               >
                 <i class="fa-solid fa-copy"></i> copy
               </button>
@@ -476,26 +477,18 @@
         </div>
 
         <!-- Call History Panel -->
-        <div class="bg-[white] rounded-lg p-4 shadow-md max-w-md">
+        <div class="bg-[white] rounded-lg p-4 shadow-md max-w-md w-full">
           <div class="flex justify-between items-center mb-4">
             <h3 class="text-lg font-semibold">
               <i class="fa-regular fa-clock"></i> Call History
             </h3>
             <button class="text-red-400 hover:text-red-600 text-sm">
-              🗑️ Clear
+              Clear
             </button>
           </div>
-          <ul class="space-y-2 text-sm text-gray-300">
-            <li class="call-entry">
-              <div>
-                <div class="service-name">Fire Service Number</div>
-                <div class="service-number">999</div>
-              </div>
-              <div class="timestamp">11:36:58 AM</div>
-            </li>
-          </ul>
         </div>
       </div>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
