@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--font_awesome-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Tailwind cnd-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bg-[var(--custom-bg)]">
+      <nav
+        class="w-[var(--custom-width)] ml-[var(--custom-margin-left)] mr-[var(--custom-margin-right)] flex justify-between items-center py-5"
+      >
+        <!-- navbar -->
+        <div class="flex items-center">
+          <!-- navbar-left -->
+          <div
+            class="w-[40px] h-[40px] bg-[linear-gradient(45deg, red, yellow)] flex justify-[center] items-[center]"
+          >
+            <!-- icon-circle -->
+            <span class="text-[11px]">
+              <!-- icon-symbol -->
+              <img src="./assets/logo.png" alt="Logo" />
+            </span>
+          </div>
+          <div
+            class="ml-[10px] font-700 text-[#008000] flex flex-col text-[18px] font-bold"
+          >
+            <span> Emergency </span>
+            <span> Service </span>
+          </div>
+          <!-- service-text -->
+        </div>
+        <div class="flex items-center gap-10">
+          <!-- navbar-right -->
+          <div
+            class="badge rounded-[50px] bg-[#ecfff0] text-[20px] p-5 font-semibold"
+          >
+            <span>0</span>
+            <img
+              class="w-[25px] h-[25px]"
+              src="./assets/heart.png"
+              alt="heart"
+            />
+          </div>
+          <div
+            class="badge rounded-[50px] bg-[#ecfff0] text-[20px] p-5 font-semibold"
+          >
+            <span>0</span>
+            <img class="w-[25px] h-[25px]" src="./assets/coin.png" alt="coin" />
+          </div>
+          <div
+            class="badge rounded-[50px] bg-[#00a63e] text-[20px] p-5 font-medium"
+          >
+            <span>0</span>
+            Copy
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="bg_color">
+        <div
+          class="flex flex-col items-center justify-center w-[var(--custom-width)] ml-[var(--custom-margin-left)] mr-[var(--custom-margin-right)] py-10 text-center text-white"
+        >
+          <!-- banner-section -->
+          <div class="mb-2">
+            <!-- emblem-container -->
+            <img
+              src="./assets/logo-dark.png"
+              alt="Bangladesh Emblem"
+              class="w-[120px] h-auto"
+            />
+          </div>
+          <div>
+            <!-- text-content -->
+            <h1 class="text-[2rem] font-bold mb-2">
+              Emergency Service Directory
+            </h1>
+            <p class="text-[1rem] leading-[1.5]">
+              Government Emergency Services at Your Fingertips – Property,
+              Government of the People's Republic of Bangladesh
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

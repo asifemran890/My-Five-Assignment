@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --custom-width: 1440px;
+  --custom-bg: #ffffff;
+  --custom-margin-left: auto;
+  --custom-margin-right: auto;
+  --custom-shadow: 1px 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #d8d8d8;
+}
+.bg_color {
+  background: linear-gradient(135deg, #006a4e, #009e60);
+}
