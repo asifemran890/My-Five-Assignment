@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 :root {
   --custom-width: 1440px;
+  --sm-width: 640px;
+  --md-width: 768px;
+  --lg-width: 1024px;
+  --xl-width: 1440px;
   --custom-bg: #ffffff;
   --custom-margin-left: auto;
   --custom-margin-right: auto;
@@ -20,7 +24,7 @@ body {
   color: black;
   background-color: #e6e6e6;
   border-radius: 8px;
-  padding: 12px;
+  padding: 8px;
   margin-bottom: 10px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -33,11 +37,11 @@ body {
 }
 .service-number {
   color: black;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 4px;
 }
 .timestamp {
-  font-size: 0.85rem;
+  font-size: 11px;
   color: black;
   margin-top: 2px;
   font-weight: 500;

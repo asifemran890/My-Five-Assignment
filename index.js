@@ -9,6 +9,7 @@ const callHistory = document.getElementById("callHistory");
 const clearHistory = document.getElementById("clearHistory");
 const copyButtons = document.querySelectorAll("#copyButton");
 
+
 for (let i = 0; i < signalLove.length; i++) {
   signalLove[i].addEventListener("click", (e) => {
     e.preventDefault();
@@ -22,16 +23,14 @@ for (let i = 0; i < callButton.length; i++) {
     const phoneNumber = serviceNumber[i].innerText;
     const sName = serviceName[i].innerText;
     if (parseInt(coinCounter.innerText) < 20) {
-      window.alert(
-        "You don't have enough coins. You need at least 20 coins to make a call....."
-      );
+      window.alert("You don't have enough coins. You need at least 20 coins to make a call.....");
       return;
     }
-    window.alert(`Calling ${sName} ${phoneNumber}...`);
-    coinCounter.innerText = parseInt(coinCounter.innerText) - 20;
-    const callItem = document.createElement("li");
-    callItem.classList.add("call-entry");
-    callItem.innerHTML = `<div>
+      window.alert(`Calling ${sName} ${phoneNumber}...`);
+      coinCounter.innerText = parseInt(coinCounter.innerText) - 20;
+      const callItem = document.createElement("li");
+      callItem.classList.add("call-entry");
+      callItem.innerHTML = `<div>
                 <div class="service-name">${sName}</div>
                 <div class="service-number">${phoneNumber}</div>
               </div>
